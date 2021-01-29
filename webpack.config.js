@@ -83,7 +83,7 @@ module.exports = (env, argv) => {
       extensions:['.ts','.js']
     },
     devServer:{
-      port:3000,
+      port: 3000,
       open: 'Google Chrome',
       contentBase: path.resolve(__dirname, "dist") , // 起服务的地址，默认是打包输出的文件夹，即output.path
       inline: true,             // 实时刷新
